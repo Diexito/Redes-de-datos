@@ -3,6 +3,8 @@
 \usepackage[spanish]{babel}
 \usepackage{textcomp}
 \usepackage{graphicx}
+%\usepackage{indentfirst}
+%\usepackage{parskip}
 \graphicspath{ {images/} }
 
 % Podemos establecer el logo de alguna entidad o dejar el de la UDP (defecto)
@@ -49,11 +51,15 @@ Como se mencionó anteriormente, la red posee 19 equipos cuyos cables de red van
 Especificaciones técnicas:\\
 
  \begin{itemize}
+    \vspace{4mm}
     \item[Patch Panel]
     \begin{itemize}
-         \item[Marca:] Siemon
-         \item[Modelo:] 5e HD series
-         \item[Puertos:]
+    	\setlength{\parindent}{10ex}
+    	\vspace{4mm}
+        \item[Marca:] Siemon
+        \item[Modelo:] 5e HD series
+    	\item[Puertos:]
+        \end{}
     \end{itemize}
  \end{itemize}
 
@@ -69,6 +75,12 @@ Especificaciones técnicas:\\
 
 \section{Equipos conectados a la Red}
 Miau.
+
+\section{Introduction}
+
+This is the first paragraph.
+
+\noindent This is the second paragraph.
 
 \section{Switchs de la Topologia}
 mas miau.
@@ -88,6 +100,60 @@ Modelo: 5e HD5 Series (confirmar el modelo, el 5 no estoy seguro)
 Puertos:
 
 \chapter{Información de los Dispositivos}
+	*Todos los computadores poseen las mismas especificaciones técnicas.
+    
+	Hardware:
+    
+			Marca: Hewlett-Packard
+        
+			Modelo: HP Elitedesk 800 G1 SFF
+        
+			Procesador Intel Core i7-4770
+        
+			Memoria Ram 8.0gb
+        
+			Interfaz de red Intel 1217LM gigabit
+        
+			Sistema Operativo Ubuntu 14.04 LTS 64-bits
+        
+	Monitor: Samsung
+    
+	Teclado: Hewlett-Packard
+    
+	Mouse: Hewlett-Packard
+    
+    
+    
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{lllll}
+Dirección IP  & MAC               & Puerto Switch & Puerto Patch Panel & Categoría Cable de red \\
+172.16.32.101 & 40:a8:f0:51:dd:4c & 1             & 2                  & 5E                     \\
+172.16.32.102 & 40:a8:f0:56:47:8b & 4             & 4                  & 5E                     \\
+172.16.32.103 & 40:a8:f0:51:dd:f2 & 3             & 3                  & 5E                     \\
+172.16.32.104 & 40:a8:f0:4e:e8:dd & 8             & 6                  & 5E                     \\
+172.16.32.105 & 40:a8:f0:51:db:4e & 5             & 5                  & 5E                     \\
+172.16.32.106 & 40:a8:f0:4e:e8:e3 & 6             & 8                  & 5E                     \\
+172.16.32.107 & 40:a8:f0:4d:f7:29 & 7             & 7                  & 5E                     \\
+172.16.32.108 & 40:a8:f0:53:4e:93 & 19            & 19                 & 5E                     \\
+172.16.32.109 & 40:a8:f0:56:84:66 & 17            & 18                 & 5E                     \\
+172.16.32.125 & 40:a8:f0:53:4e:96 & 18            & 17                 & 5E                     \\
+172.16.32.111 & 40:a8:f0:4d:f9:e8 & 16            & 16                 & 5                      \\
+172.16.32.112 & 40:a8:f0:51:dc:e1 & 15            & 15                 & 5E                     \\
+172.16.32.113 & 40:a8:f0:56:84:5b & 13            & 13                 & 5E                     \\
+172.16.32.114 & 40:a8:f0:53:4e:9f & 14            & 14                 & 5E                     \\
+172.16.32.115 & 40:a8:f0:4e:e8:e2 & 11            & 12                 & 5E                     \\
+172.16.32.116 & 40:a8:f0:53:4e:8c & 12            & 11                 & 5E                     \\
+172.16.32.117 & 40:a8:f0:53:4f:27 & 9             & 9                  & 5E                     \\
+172.16.32.118 & 40:a8:f0:56:49:3b & 10            & 10                 & 5E                     \\
+Sin dispositivo	&	& 2	& 1 	&	\\
+Sin dispositivo	&	& ?	& 20	&	\\
+Sin dispositivo	&	& ?	& 22	&	\\
+Sin dispositivo	&	& 20 & 23	&	\\
+\end{tabular}
+\end{table}
 
 \chapter{Diagrama de Red}
 Zangano asqueroso tu diagrama esta malo.
